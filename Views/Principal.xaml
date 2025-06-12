@@ -5,7 +5,6 @@
              Title="Principal">
     <VerticalStackLayout Padding="10" >
         <Image Source="logo_principal.png" HeightRequest="500" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Image Source=".png" HeightRequest="300" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"/>
 
     </VerticalStackLayout>
 

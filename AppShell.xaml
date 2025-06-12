@@ -18,26 +18,15 @@
 
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate Views:Principal}"/>
 
-        <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate Views:Principal}"
-        />
+        <ShellContent Title="Cadastro" ContentTemplate="{DataTemplate Views:Cadastro}"/>
 
-        <ShellContent
-        Title="Cadastro"
-        ContentTemplate="{DataTemplate Views:Cadastro}"
-        />
-
-        <ShellContent
-        Title="Estacionamento"
-        ContentTemplate="{DataTemplate Views:Lista}"
-        />
-        
+        <ShellContent Title="Estacionamento" ContentTemplate="{DataTemplate Views:Lista}"/>
     </FlyoutItem>
 
     <Shell.FlyoutFooter >
-        <Label Text="v1.0.0.0 - Miguel || Pablo" HorizontalOptions="Center"  />
+        <Label Text="v1.0.0.0 - Miguel || Pablo" HorizontalOptions="Center"/>
     </Shell.FlyoutFooter>
     
 

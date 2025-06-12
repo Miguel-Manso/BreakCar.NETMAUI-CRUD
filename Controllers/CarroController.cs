@@ -43,6 +43,11 @@ namespace BreakCar.Controllers
             return connection.Find<Carro>(value);
         }
 
+        public Carro GetByPlaca(string placa)
+        {
+            return connection.Table<Carro>().FirstOrDefault(c => c.Placa == placa);
+        }
+
         public List<Carro>GetByFilters(string placa, DateTime? data, string statusPagamento)
         {
             var query = connection.Table<Carro>().AsQueryable();
@@ -67,7 +72,5 @@ namespace BreakCar.Controllers
 
             return query.ToList();
         }
-
-
     }
 }

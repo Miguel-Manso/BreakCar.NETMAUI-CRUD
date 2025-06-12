@@ -9,8 +9,8 @@
     <Color x:Key="Primary">#bd0621</Color>
     <Color x:Key="PrimaryDark">#fc0328</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
-    <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="SecondaryDarkText">#9880e5</Color>
+    <Color x:Key="Secondary">#bd0621</Color>
+    <Color x:Key="SecondaryDarkText">#fc0328</Color>
     <Color x:Key="Tertiary">#2B0B98</Color>
 
     <Color x:Key="White">White</Color>

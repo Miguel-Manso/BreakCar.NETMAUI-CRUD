@@ -21,7 +21,6 @@ public partial class Cadastro : ContentPage
         {
             imgSelecionada.Source = sImagemSelecionada;
 
-            // Mostra o botão Remover e esconde o Selecionar
             btnRemover.IsVisible = true;
             btnSelecionar.IsVisible = false;
         }
@@ -94,8 +93,31 @@ public partial class Cadastro : ContentPage
     {
         LimparImagem();
 
-        // Volta a mostrar o botão Selecionar e esconde o Remover
         btnSelecionar.IsVisible = true;
         btnRemover.IsVisible = false;
+    }
+
+    private async void txtPlaca_TextChanged(object sender, TextChangedEventArgs e)
+    {
+        string placa = txtPlaca.Text;
+
+        var placaExistente = carroController.GetByPlaca(placa);
+
+        if (placaExistente != null)
+        {
+            txtMarca.Text = placaExistente.Marca;
+            txtModelo.Text = placaExistente.Modelo;
+            txtCor.Text = placaExistente.Cor;
+            txtNomeProprietario.Text = placaExistente.NomeProprietario;
+            pckTipo.SelectedItem = placaExistente.Tipo;
+            imgSelecionada.Source = placaExistente.Imagem;
+            sImagemSelecionada = placaExistente.Imagem;
+
+            btnRemover.IsVisible = true;
+            btnSelecionar.IsVisible = false;
+
+            await DisplayAlert("Aviso!", "Placa já cadastrada. Dados preenchidos automaticamente.", "OK");
+        }
+
     }
 }

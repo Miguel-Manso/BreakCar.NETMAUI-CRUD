@@ -8,14 +8,12 @@ public partial class Lista : ContentPage
     private CarroController carroController;
 	public Lista()
 	{
-
         InitializeComponent();
         
         carroController = new CarroController();
         lsvLista.ItemsSource = carroController.GetAll();
-
-
     }
+
     private void AtualizarListView()
     {
         lsvLista.ItemsSource = carroController.GetAll();
@@ -103,7 +101,7 @@ public partial class Lista : ContentPage
 
     private void chkFiltroData_CheckedChanged(object sender, CheckedChangedEventArgs e)
     {
-        dpFiltroData.IsVisible = e.Value;  // mostra se estiver marcado, esconde se desmarcado
+        dpFiltroData.IsVisible = e.Value; 
 
     }
 }

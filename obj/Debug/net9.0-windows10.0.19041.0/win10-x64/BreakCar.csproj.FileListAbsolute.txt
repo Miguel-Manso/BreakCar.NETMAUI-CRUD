@@ -1907,9 +1907,6 @@ C:\Users\Unifafibe\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.
 C:\Users\Unifafibe\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\carro.scale-100.png
 C:\Users\Unifafibe\Desktop\BreakCar\BreakCar\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\carro1.scale-100.png
 C:\Users\Unifafibe\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\carro1.scale-100.png
-C:\Users\Miguel\Desktop\BreakCar\BreakCar\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\carro1.scale-100.png
-C:\Users\Miguel\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\carro1.scale-100.png
-C:\Users\Miguel\Desktop\BreakCar\BreakCar\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\carrin.scale-100.png
-C:\Users\Miguel\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\carrin.scale-100.png
 C:\Users\Miguel\Desktop\BreakCar\BreakCar\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\logo_principal.scale-100.png
 C:\Users\Miguel\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo_principal.scale-100.png
+C:\Users\Miguel\Desktop\BreakCar\BreakCar\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\BreakCar.sourcelink.json

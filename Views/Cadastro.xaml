@@ -5,30 +5,22 @@
 
     <ScrollView>
         <VerticalStackLayout Margin="0,15,0,0" Padding="10" >
-
             <FlexLayout Direction="Row" Wrap="Wrap" JustifyContent="Center" AlignItems="Start" AlignContent="Start">
-
-                <VerticalStackLayout Margin="5" WidthRequest="300" 
-                                     MaximumWidthRequest="350"
-                                     >
+                <VerticalStackLayout Margin="5" WidthRequest="300" MaximumWidthRequest="350">
                     <Label Text="Placa: " />
-                    <Entry x:Name="txtPlaca" ClearButtonVisibility="WhileEditing" />
+                    <Entry x:Name="txtPlaca" ClearButtonVisibility="WhileEditing" TextChanged="txtPlaca_TextChanged" />
                     <Label Text="Marca:"/>
                     <Entry x:Name="txtMarca" ClearButtonVisibility="WhileEditing" />
                 </VerticalStackLayout>
 
-                <VerticalStackLayout Margin="5" WidthRequest="300" 
-                                     MaximumWidthRequest="350"
-                                        >
+                <VerticalStackLayout Margin="5" WidthRequest="300" MaximumWidthRequest="350">
                     <Label Text="Modelo:"/>
                     <Entry x:Name="txtModelo" ClearButtonVisibility="WhileEditing" />
                     <Label Text="Cor:"/>
                     <Entry x:Name="txtCor" ClearButtonVisibility="WhileEditing" />
                 </VerticalStackLayout>
 
-                <VerticalStackLayout Margin="5" WidthRequest="300" 
-                                     MaximumWidthRequest="350"
-                                     >
+                <VerticalStackLayout Margin="5" WidthRequest="300" MaximumWidthRequest="350">
                     <Label Text="Nome do Proprietário:"/>
                     <Entry x:Name="txtNomeProprietario" ClearButtonVisibility="WhileEditing" />
                     <Label Text="Pagamento Por"/>
@@ -39,25 +31,17 @@
                         </Picker.Items>
                     </Picker>
                 </VerticalStackLayout>
-
             </FlexLayout>
 
             <VerticalStackLayout>
-
                 <HorizontalStackLayout x:Name="buttonContainer" HorizontalOptions="Center" Spacing="10">
-                    <Button Text="Selecionar Imagem" Clicked="btnSelecionar_Clicked" 
-                            x:Name="btnSelecionar" WidthRequest="160"/>
-                    <Button Text="Remover Imagem" Clicked="btnRemover_Clicked" 
-                            x:Name="btnRemover" IsVisible="False" WidthRequest="160"/>
+                    <Button Text="Selecionar Imagem" Clicked="btnSelecionar_Clicked" x:Name="btnSelecionar" WidthRequest="160"/>
+                    <Button Text="Remover Imagem" Clicked="btnRemover_Clicked" x:Name="btnRemover" IsVisible="False" WidthRequest="160"/>
                 </HorizontalStackLayout>
 
-                <Image x:Name="imgSelecionada" 
-                       MaximumHeightRequest="200" 
-                       MaximumWidthRequest="200"  
-                       HorizontalOptions="Center" VerticalOptions="Center" Margin="5"/>
+                <Image x:Name="imgSelecionada" MaximumHeightRequest="200" MaximumWidthRequest="200" HorizontalOptions="Center" VerticalOptions="Center" Margin="5"/>
 
-                <Button Text="Adicionar" Clicked="btnAdicionar_Clicked" 
-                        HorizontalOptions="Center" WidthRequest="250"/>
+                <Button Text="Adicionar" Clicked="btnAdicionar_Clicked" HorizontalOptions="Center" WidthRequest="250"/>
             </VerticalStackLayout>
 
         </VerticalStackLayout>

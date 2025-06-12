@@ -11,7 +11,6 @@
         <Frame BorderColor="#ccc" CornerRadius="10" HasShadow="True" Padding="15">
             <HorizontalStackLayout Spacing="30">
 
-                <!-- Primeira Coluna -->
                 <VerticalStackLayout Spacing="8" HorizontalOptions="StartAndExpand">
                     <HorizontalStackLayout>
                         <Label Text="ID:" FontSize="20" FontAttributes="Bold" HorizontalOptions="Start" Margin="0,0,5,0"/>
@@ -39,7 +38,6 @@
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
 
-                <!-- Segunda Coluna -->
                 <VerticalStackLayout Spacing="8" HorizontalOptions="End">
                     <HorizontalStackLayout>
                         <Label Text="Nome do Proprietário:" FontSize="20" FontAttributes="Bold" Margin="0,0,5,0"/>
