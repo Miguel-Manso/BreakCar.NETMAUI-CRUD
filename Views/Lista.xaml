@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BreakCar.Views.Lista"
+             Title="Lista">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20" >
+
+            <!-- Filtros em estilo flexível (3 colunas que se ajustam) -->
+            <FlexLayout Direction="Row" Wrap="Wrap" HorizontalOptions="Center" JustifyContent="Start" AlignItems="Start" AlignContent="Start">
+
+                <!-- Coluna 1 -->
+                <VerticalStackLayout WidthRequest="300" Margin="2,10,2,0">
+                    <Label Text="Placa:" />
+                    <Entry x:Name="txtFiltroPlaca" ClearButtonVisibility="WhileEditing" />
+                </VerticalStackLayout>
+
+                <!-- Coluna 2 -->
+                <VerticalStackLayout WidthRequest="300" Margin="2,10,2,0">
+                    <Label Text="Status de Pagamento:" />
+                    <Picker x:Name="pckStatusPagamento">
+                        <Picker.Items>
+                            <x:String>Todos</x:String>
+                            <x:String>Pago</x:String>
+                            <x:String>Não Pago</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </VerticalStackLayout>
+                
+            </FlexLayout>
+
+            <VerticalStackLayout WidthRequest="300" Margin="0,10,0,0" VerticalOptions="Center"  HorizontalOptions="Center" >
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="0" Padding="0">
+                    <CheckBox x:Name="chkFiltroData" CheckedChanged="chkFiltroData_CheckedChanged"/>
+                    <Label Text="Filtrar Por Data?" VerticalOptions="Center" />
+                   
+                </HorizontalStackLayout>
+                <DatePicker x:Name="dpFiltroData" IsVisible="False" Margin="5,0,0,0"  HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+
+            <!-- Botões -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="15" Margin="0,15,0,0">
+                <Button Text="Procurar" Clicked="btnProcurar_Clicked" WidthRequest="140" />
+                <Button Text="Atualizar" Clicked="btnAtualizar_Clicked" WidthRequest="140" />
+            </HorizontalStackLayout>
+
+            <ListView x:Name="lsvLista" HasUnevenRows="True" Margin="0,20,0, 0" WidthRequest="600">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame CornerRadius="10" Padding="15" BackgroundColor="#414142" Margin="5" >
+                                <FlexLayout Direction="Row" Wrap="NoWrap" JustifyContent="SpaceBetween" AlignItems="Center">
+
+                                    <HorizontalStackLayout Spacing="5">
+                                    <VerticalStackLayout HorizontalOptions="Start" Padding="5">
+                                        <Image Source="{Binding Imagem}" HeightRequest="50" WidthRequest="50"
+                                               HorizontalOptions="Center" VerticalOptions="Center" />
+                                    </VerticalStackLayout>
+
+                                    <VerticalStackLayout FlexLayout.Grow="1" Padding="5">
+                                        <Label Text="{Binding Placa}" FontSize="20" FontAttributes="Bold" />
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Modelo:" />
+                                            <Label Text="{Binding Modelo}" Margin="5,0" />
+                                        </StackLayout>
+                                    </VerticalStackLayout>
+                                    </HorizontalStackLayout>
+                                    
+                                    <HorizontalStackLayout HorizontalOptions="End" Spacing="10" Padding="5">
+                                        <StackLayout HorizontalOptions="Center">
+                                            <Image Source="icon_eye.png" WidthRequest="33" HeightRequest="33">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="tapVisualizar_Tapped" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                            <Label Text="Visualizar" FontSize="12" TextColor="White" HorizontalTextAlignment="Center"/>
+                                        </StackLayout>
+
+                                        <StackLayout HorizontalOptions="Center">
+                                            <Image Source="icon_trash.png" WidthRequest="33" HeightRequest="33">
+                                                <Image.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="tapExcluir_Tapped" CommandParameter="{Binding .}" />
+                                                </Image.GestureRecognizers>
+                                            </Image>
+                                            <Label Text="Excluir" FontSize="12" TextColor="White" HorizontalTextAlignment="Center"/>
+                                        </StackLayout>
+
+                                        <StackLayout HorizontalOptions="Center">
+                                            <Image Source="icon_money.png" WidthRequest="33" HeightRequest="33">
+                                            <Image.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="tapPagamento_Tapped" CommandParameter="{Binding .}" />
+                                            </Image.GestureRecognizers>
+                                        </Image>
+                                        <Label Text="Pagar" FontSize="12" TextColor="White" HorizontalTextAlignment="Center"/>
+                                        </StackLayout>
+                                    </HorizontalStackLayout>
+
+                                </FlexLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

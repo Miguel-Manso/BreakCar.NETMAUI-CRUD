@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BreakCar.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BreakCar"
+    Shell.FlyoutBehavior="Flyout"
+    Title="BreakCar"
+    Shell.NavBarIsVisible="False"
+    Shell.TabBarIsVisible="False"
+    xmlns:Views="clr-namespace:BreakCar.Views">
+
+    <Shell.FlyoutHeader>
+        <StackLayout VerticalOptions="Center">
+            <Image Source="logo.png" HeightRequest="150"/>
+        </StackLayout>
+    </Shell.FlyoutHeader>
+
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate Views:Principal}"
+        />
+
+        <ShellContent
+        Title="Cadastro"
+        ContentTemplate="{DataTemplate Views:Cadastro}"
+        />
+
+        <ShellContent
+        Title="Estacionamento"
+        ContentTemplate="{DataTemplate Views:Lista}"
+        />
+        
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter >
+        <Label Text="v1.0.0.0 - Miguel || Pablo" HorizontalOptions="Center"  />
+    </Shell.FlyoutFooter>
+    
+
+</Shell>
