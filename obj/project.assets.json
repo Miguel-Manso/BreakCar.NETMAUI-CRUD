@@ -29273,24 +29273,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miguel\\.nuget\\packages\\": {},
+    "C:\\Users\\Unifafibe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguel\\Desktop\\BreakCar\\BreakCar\\BreakCar.csproj",
+      "projectUniqueName": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\BreakCar.csproj",
       "projectName": "BreakCar",
-      "projectPath": "C:\\Users\\Miguel\\Desktop\\BreakCar\\BreakCar\\BreakCar.csproj",
-      "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguel\\Desktop\\BreakCar\\BreakCar\\obj\\",
+      "projectPath": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\BreakCar.csproj",
+      "packagesPath": "C:\\Users\\Unifafibe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Unifafibe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

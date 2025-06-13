@@ -12,55 +12,55 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BreakCar
-build_property.ProjectDir = C:\Users\Miguel\Desktop\BreakCar\BreakCar\
+build_property.ProjectDir = C:\Users\Unifafibe\Desktop\BreakCar\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/App.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/AppShell.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Resources/Styles/Colors.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Resources/Styles/Styles.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Views/Cadastro.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Views/Cadastro.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Views.Cadastro.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Cadastro.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cadastro.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Views/Lista.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Views/Lista.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Views.Lista.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Lista.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Lista.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Views/Principal.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Views/Principal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Views.Principal.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Principal.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Principal.xaml
 
-[C:/Users/Miguel/Desktop/BreakCar/BreakCar/Views/Visualizador.xaml]
+[C:/Users/Unifafibe/Desktop/BreakCar/Views/Visualizador.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BreakCar.Views.Visualizador.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Visualizador.xaml

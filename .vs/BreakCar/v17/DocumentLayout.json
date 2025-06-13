@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|c:\\users\\unifafibe\\desktop\\breakcar\\views\\cadastro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|solutionrelative:views\\cadastro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|c:\\users\\unifafibe\\desktop\\breakcar\\views\\lista.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|solutionrelative:views\\lista.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unifafibe\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|c:\\users\\unifafibe\\desktop\\breakcar\\views\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|solutionrelative:views\\principal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|c:\\users\\unifafibe\\desktop\\breakcar\\views\\lista.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|solutionrelative:views\\lista.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Unifafibe\\Desktop\\BreakCar\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|c:\\users\\unifafibe\\desktop\\breakcar\\views\\visualizador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{876F2AEB-47E1-DA23-89F7-D9AE99AEA2B6}|BreakCar.csproj|solutionrelative:views\\visualizador.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:14:27.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Visualizador.xaml",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Visualizador.xaml",
+              "RelativeDocumentMoniker": "Views\\Visualizador.xaml",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Visualizador.xaml",
+              "RelativeToolTip": "Views\\Visualizador.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T22:48:36.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lista.xaml",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Lista.xaml",
+              "RelativeDocumentMoniker": "Views\\Lista.xaml",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Lista.xaml",
+              "RelativeToolTip": "Views\\Lista.xaml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T22:44:20.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cadastro.xaml",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Cadastro.xaml",
+              "RelativeDocumentMoniker": "Views\\Cadastro.xaml",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Cadastro.xaml",
+              "RelativeToolTip": "Views\\Cadastro.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T22:40:02.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lista.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Lista.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Lista.xaml.cs",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Lista.xaml.cs",
+              "RelativeToolTip": "Views\\Lista.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T23:16:32.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Unifafibe\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAFwCAAAAAAAAAAAIwGcCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-12T23:52:32.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Principal.xaml",
+              "DocumentMoniker": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Principal.xaml",
+              "RelativeDocumentMoniker": "Views\\Principal.xaml",
+              "ToolTip": "C:\\Users\\Unifafibe\\Desktop\\BreakCar\\Views\\Principal.xaml",
+              "RelativeToolTip": "Views\\Principal.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-12T23:39:36.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

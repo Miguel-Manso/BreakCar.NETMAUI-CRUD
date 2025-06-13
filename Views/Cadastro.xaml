@@ -35,7 +35,7 @@
 
             <VerticalStackLayout>
                 <HorizontalStackLayout x:Name="buttonContainer" HorizontalOptions="Center" Spacing="10">
-                    <Button Text="Selecionar Imagem" Clicked="btnSelecionar_Clicked" x:Name="btnSelecionar" WidthRequest="160"/>
+                    <Button Text="Selecionar Imagem" Clicked="btnSelecionar_Clicked" x:Name="btnSelecionar" WidthRequest="160" Margin="0,12,0,0"/>
                     <Button Text="Remover Imagem" Clicked="btnRemover_Clicked" x:Name="btnRemover" IsVisible="False" WidthRequest="160"/>
                 </HorizontalStackLayout>
 
