@@ -35,17 +35,18 @@ public partial class Cadastro : ContentPage
         string nomeProprietario = txtNomeProprietario.Text;
         string tipo = pckTipo.SelectedItem?.ToString();
 
+
+        if (string.IsNullOrEmpty(sImagemSelecionada))
+        {
+            DisplayAlert("Erro", "Selecione uma imagem para o veículo.", "OK");
+            return;
+        }
+
         if (string.IsNullOrEmpty(placa) || string.IsNullOrEmpty(marca) ||
             string.IsNullOrEmpty(modelo) || string.IsNullOrEmpty(cor) ||
             string.IsNullOrEmpty(nomeProprietario) || string.IsNullOrEmpty(tipo))
         {
             DisplayAlert("Erro", "Todos os campos devem ser preenchidos.", "OK");
-            return;
-        }
-
-        if (string.IsNullOrEmpty(sImagemSelecionada))
-        {
-            DisplayAlert("Erro", "Selecione uma imagem para o veículo.", "OK");
             return;
         }
 
@@ -64,6 +65,7 @@ public partial class Cadastro : ContentPage
         {
             DisplayAlert("Sucesso", "Carro cadastrado com sucesso!", "OK");
             LimparCampos();
+
         }
         else
         {
@@ -87,14 +89,15 @@ public partial class Cadastro : ContentPage
     {
         imgSelecionada.Source = "";
         btnRemover.IsVisible = false;
+        btnSelecionar.IsVisible = true;
+        sImagemSelecionada = null;
     }
 
     private void btnRemover_Clicked(object sender, EventArgs e)
     {
         LimparImagem();
-
-        btnSelecionar.IsVisible = true;
         btnRemover.IsVisible = false;
+        btnSelecionar.IsVisible = true;
     }
 
     private async void txtPlaca_TextChanged(object sender, TextChangedEventArgs e)

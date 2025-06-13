@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BreakCar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8410151b4cf16aac8fdc62e56122f43062895129")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d8e2b2286329886c9b694ac5ef9cdae8fb91e2be")]
 [assembly: System.Reflection.AssemblyProductAttribute("BreakCar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BreakCar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
